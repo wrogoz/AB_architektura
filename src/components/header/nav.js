@@ -1,60 +1,59 @@
+
 import React from 'react';
-import { MDBContainer, MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './nav.css'
-import StartPage from '../startPage/startPage'
 class Navigation extends React.Component {
   constructor(props) {
-      super(props);
-      this.state = {
-          collapse: false,
-      };
-      this.onClick = this.onClick.bind(this);
+    super(props);
+    this.state = {
+      collapse: false,
+      isWideEnough: false
+    };
+    this.onClick = this.onClick.bind(this);
   }
 
   onClick() {
     this.setState({
-        collapse: !this.state.collapse,
-      });
+      collapse: !this.state.collapse
+    });
   }
 
   render() {
-    
-    const container = {height: 1300}
-    return(
-      <div>
-        
-          <header>
-            <MDBNavbar  dark expand="md" scrolling fixed="top">
-              <MDBNavbarBrand href="/">
-                  <strong>Navbar</strong>
+    return (
+     
+        <header className="header ">
+          
+        <MDBNavbar className="navBar z-depth-0" dark expand="md" fixed="top" >
+          <MDBNavbarBrand href="/" className="black-text" >
+                <strong>A+B architektura</strong>
               </MDBNavbarBrand>
-              <MDBNavbarToggler onClick={ this.onClick } />
-              <MDBCollapse isOpen = { this.state.collapse } navbar>
-                <MDBNavbarNav left>
-                  
-                </MDBNavbarNav>
-                <MDBNavbarNav right id="globalNavStyles">
-                <MDBNavItem active>
-                      <MDBNavLink to="/">PROJEKTY</MDBNavLink>
+              {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
+              <MDBCollapse isOpen={this.state.collapse} navbar>
+                <MDBNavbarNav right >
+                  <MDBNavItem >
+                <MDBNavLink className="black-text" to="#">PROJEKTY</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink to="/">ARCHITEKTURA</MDBNavLink>
+                <MDBNavLink className="black-text" to="#">ARCHITEKTURA</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                      <MDBNavLink to="/">WNĘTRZA</MDBNavLink>
+                <MDBNavLink className="black-text" to="#">WNĘTRZA</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="/">KONTAKT</MDBNavLink>
+                <MDBNavLink className="black-text" to="#">KONTAKT</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-          </header>
-        
-      
-      </div>
+         
+
+        </header>
+
     );
   }
 }
+
+
 
 export default Navigation;

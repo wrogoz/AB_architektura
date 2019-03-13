@@ -1,10 +1,14 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
+import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer, MDBRow, MDBCol } from
 "mdbreact";
+import './startPage.css'
 
 const StartPage = () => {
   return (
-    <MDBContainer>
+    
+  <MDBRow >
+    <MDBCol sm="12" class="displayIntro">
+    <MDBContainer className="carousel">
      
       <MDBCarousel activeItem={1} length={4} showControls={true} showIndicators={true} className="z-depth-1">
         <MDBCarouselInner>
@@ -50,7 +54,12 @@ const StartPage = () => {
           </MDBCarouselItem>
         </MDBCarouselInner>
       </MDBCarousel>
+      <MDBRow >
+        <MDBCol className="iconsCol" sm="12">tu 2 ikonki</MDBCol>
+      </MDBRow>
     </MDBContainer>
+      </MDBCol>
+    </MDBRow>
   );
 }
 

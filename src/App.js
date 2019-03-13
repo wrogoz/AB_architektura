@@ -3,6 +3,7 @@ import { MDBContainer,MDBCol,MDBRow} from "mdbreact";
 import Navigation from './components/header/nav'
 import StartPage from './components/startPage/startPage'
 import { BrowserRouter as Router } from 'react-router-dom';
+import './style.css'
 class App extends Component {
 
   state={
@@ -14,18 +15,17 @@ class App extends Component {
     return (
      
         <Router>
-           <MDBContainer>
-           
-            <MDBRow>
+           <MDBContainer fluid>
+           {/* NAVIGATION */}
+            <MDBRow >
               <MDBCol sm="12">
-              <Navigation/>
+                <Navigation/>
               </MDBCol>
-          </MDBRow>
-            <MDBRow>
-              <MDBCol sm="12">
-                <StartPage/>
-              </MDBCol>
-          </MDBRow>
+              </MDBRow>
+              {/* DISPLAY SECTIONS */}
+
+              <StartPage />
+             
           </MDBContainer>
           
         </Router>

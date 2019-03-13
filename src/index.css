@@ -28,8 +28,5 @@
 	color:rgba(0,0,0,.35);
 	float:right;
 }
-.navbar-dark,
- .navbar-nav,
- .nav-link.active{
-     color:#000 !important;
- }
+
+ 

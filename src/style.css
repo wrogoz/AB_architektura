@@ -1,0 +1,10 @@
+.globalBox{
+    height: 100vh ;
+    width: 100vw;
+    padding-top: 12vh;
+
+}
+.displayIntro{
+    display: flex;
+    justify-content: center;
+}
