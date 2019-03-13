@@ -10,8 +10,13 @@
 }
 .iconsCol{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 1%;
+    width:10vw;
+    
+}
+.iconRow{
+    padding-top: 1%;
 }
 .w-100{
     width:100vw;

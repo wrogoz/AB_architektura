@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer, MDBRow, MDBCol } from
+import {MDBIcon, MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer, MDBRow, MDBCol } from
 "mdbreact";
 import img1 from './images/img1.jpg'
 import img2 from './images/img2.jpg'
@@ -10,14 +10,14 @@ const StartPage = () => {
   return (
     
   <MDBRow >
-    <MDBCol sm="12" class="displayIntro">
+    <MDBCol sm="12" className="displayIntro">
     <MDBContainer className="carousel">
      
       <MDBCarousel activeItem={1} length={3} showControls={false} showIndicators={false} className="z-depth-1">
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBView>
-              <img className="d-block w-100" src={img1} alt="First slide" />
+              <img className="d-block w-100 " src={img1} alt="First slide" />
               
             </MDBView>
             <MDBCarouselCaption>
@@ -41,8 +41,11 @@ const StartPage = () => {
           
         </MDBCarouselInner>
       </MDBCarousel>
-      <MDBRow >
-        <MDBCol className="iconsCol" sm="12">tu 2 ikonki</MDBCol>
+      <MDBRow className="iconRow">
+            <MDBCol className="iconsCol" sm="12">
+                <MDBIcon fab icon="facebook-f" size="1.5x"/>
+              <MDBIcon fab icon="instagram" size="1.5x"/>
+             </MDBCol>
       </MDBRow>
     </MDBContainer>
       </MDBCol>
