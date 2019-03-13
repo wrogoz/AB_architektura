@@ -1,6 +1,9 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer, MDBRow, MDBCol } from
 "mdbreact";
+import img1 from './images/img1.jpg'
+import img2 from './images/img2.jpg'
+import img3 from './images/img3.jpg'
 import './startPage.css'
 
 const StartPage = () => {
@@ -10,48 +13,32 @@ const StartPage = () => {
     <MDBCol sm="12" class="displayIntro">
     <MDBContainer className="carousel">
      
-      <MDBCarousel activeItem={1} length={4} showControls={true} showIndicators={true} className="z-depth-1">
+      <MDBCarousel activeItem={1} length={3} showControls={false} showIndicators={false} className="z-depth-1">
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBView>
-              <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide" />
-              <MDBMask overlay="black-light" />
+              <img className="d-block w-100" src={img1} alt="First slide" />
+              
             </MDBView>
             <MDBCarouselCaption>
-              <h3 className="h3-responsive">Light mask</h3>
-              <p>First text</p>
+              
             </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="2">
             <MDBView>
-              <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(99).jpg" alt="Second slide" />
-              <MDBMask overlay="black-strong" />
+                  <img className="d-block w-100" src={img2} alt="Second slide" />
+              
             </MDBView>
-            <MDBCarouselCaption>
-              <h3 className="h3-responsive">Strong mask</h3>
-              <p>Second text</p>
-            </MDBCarouselCaption>
+           
           </MDBCarouselItem>
           <MDBCarouselItem itemId="3">
             <MDBView>
-              <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg" alt="Third slide" />
-              <MDBMask overlay="black-slight" />
+                  <img className="d-block w-100" src={img3} alt="Third slide" />
+             
             </MDBView>
-            <MDBCarouselCaption>
-              <h3 className="h3-responsive">Slight mask</h3>
-              <p>Third text</p>
-            </MDBCarouselCaption>
+    false
           </MDBCarouselItem>
-          <MDBCarouselItem itemId="4">
-            <MDBView>
-              <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20%28143%29.jpg" alt="Mattonit's item" />
-              <MDBMask overlay="black-light" />
-            </MDBView>
-            <MDBCarouselCaption>
-              <h3 className="h3-responsive">Sopot Beach</h3>
-              <p>Taken june 21th by @mattonit</p>
-            </MDBCarouselCaption>
-          </MDBCarouselItem>
+          
         </MDBCarouselInner>
       </MDBCarousel>
       <MDBRow >
