@@ -4,15 +4,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1%;
+    
     
     
 }
 .iconsCol{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 1%;
-    width:10vw;
+    width:100vw;
     
 }
 .iconRow{
@@ -21,8 +21,32 @@
     min-height:30px;
     
 }
+i.fab{
+    font-size: 1.4rem;
+    padding:0 1%;
+}
 .w-100{
     width:100vw;
     height: 100vh;
     
 }
+img.d-block{
+    height:84vh;
+}
+@media (max-width: 576px) {
+     img.d-block{
+    height:78vh;
+    } 
+    .carousel{
+        margin-top: 9%;
+        margin-bottom: 3%;
+    }
+    i.fab{
+        font-size: 2rem;
+        padding:0 5%;
+    }
+    .iconRow{
+        margin-top:2%;
+    }
+}
+

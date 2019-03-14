@@ -43,8 +43,8 @@ const StartPage = () => {
       </MDBCarousel>
       <MDBRow className="iconRow">
             <MDBCol className="iconsCol" sm="12">
-                <MDBIcon fab icon="facebook-f" size="1.5x"/>
-              <MDBIcon fab icon="instagram" size="1.5x"/>
+                <MDBIcon fab icon="facebook-f" />
+              <MDBIcon fab icon="instagram" />
              </MDBCol>
       </MDBRow>
     </MDBContainer>
