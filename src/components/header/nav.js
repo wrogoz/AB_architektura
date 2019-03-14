@@ -1,7 +1,6 @@
 
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink} from 'mdbreact';
 import './nav.css'
 class Navigation extends React.Component {
   constructor(props) {
@@ -24,7 +23,7 @@ class Navigation extends React.Component {
      
         <header className="header ">
           
-        <MDBNavbar className="navBar z-depth-0" dark expand="md" fixed="top" >
+        <MDBNavbar className="navBar z-depth-0" light expand="md" fixed="top" >
           <MDBNavbarBrand href="/" className="black-text" >
                 <strong>A+B LOGO</strong>
               </MDBNavbarBrand>

@@ -1,5 +1,5 @@
 import React from "react";
-import {MDBIcon, MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer, MDBRow, MDBCol } from
+import {MDBIcon, MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer, MDBRow, MDBCol } from
 "mdbreact";
 import img1 from './images/img1.jpg'
 import img2 from './images/img2.jpg'
@@ -36,7 +36,7 @@ const StartPage = () => {
                   <img className="d-block w-100" src={img3} alt="Third slide" />
              
             </MDBView>
-    false
+    
           </MDBCarouselItem>
           
         </MDBCarouselInner>
