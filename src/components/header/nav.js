@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink} from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink,MDBIcon} from 'mdbreact';
 import './nav.css'
 class Navigation extends React.Component {
   constructor(props) {
@@ -20,16 +20,48 @@ class Navigation extends React.Component {
 
   render() {
     return (
+
+      //        FIXED VERSION 1.0
      
-        <header className="header ">
-          
-        <MDBNavbar className="navBar z-depth-0" light expand="md" fixed="top" >
-          <MDBNavbarBrand href="/" className="black-text" >
-                <strong>A+B LOGO</strong>
+        // <header className="header ">
+         
+        // <MDBNavbar className="navBar  z-depth-0" light expand="md"  >
+        //   <MDBNavbarBrand href="/" className="black-text" >
+        //         <strong>A+B LOGO</strong>
+        //       </MDBNavbarBrand>
+        //       {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
+        //       <MDBCollapse isOpen={this.state.collapse} navbar>
+        //       <MDBNavbarNav right>
+        //           <MDBNavItem >
+        //         <MDBNavLink className="black-text" to="/projekty">PROJEKTY</MDBNavLink>
+        //           </MDBNavItem>
+        //           <MDBNavItem>
+        //         <MDBNavLink className="black-text" to="/architektura">ARCHITEKTURA</MDBNavLink>
+        //           </MDBNavItem>
+        //           <MDBNavItem>
+        //         <MDBNavLink className="black-text" to="/wnetrza">WNĘTRZA</MDBNavLink>
+        //           </MDBNavItem>
+        //           <MDBNavItem>
+        //         <MDBNavLink className="black-text" to="kontakt">KONTAKT</MDBNavLink>
+        //           </MDBNavItem>
+        //         </MDBNavbarNav>
+        //       </MDBCollapse>
+        //     </MDBNavbar>
+         
+
+        // </header>
+
+
+// wersja 2
+
+<header id="header">
+            <MDBNavbar  light expand="md" className="navBar  z-depth-0" >
+              <MDBNavbarBrand href="/" className="black-text">
+              <strong>A+B LOGO</strong>
               </MDBNavbarBrand>
-              {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
+              <MDBNavbarToggler onClick={this.onClick} />
               <MDBCollapse isOpen={this.state.collapse} navbar>
-                <MDBNavbarNav right >
+                <MDBNavbarNav right>
                   <MDBNavItem >
                 <MDBNavLink className="black-text" to="/projekty">PROJEKTY</MDBNavLink>
                   </MDBNavItem>

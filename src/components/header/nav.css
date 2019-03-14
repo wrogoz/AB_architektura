@@ -6,8 +6,15 @@
 }
 
 @media (max-width: 576px) {
-    nav.navbar{
-        padding-top:4%;
+    #header {
+      
+      padding-top:4%;
+      margin-bottom: 4%;
+       
+   } 
+   li.nav-item{
+       display: flex;
+       justify-content: center;
    }
 }
 
@@ -15,17 +22,20 @@
     color:#000;
 }
 .navbar{
+    display: flex;
+    justify-content: space-between;
     padding-top:1%;
     background-color: #fff;
 }
-.header{
-    margin-bottom: 5%;
+#header {
+   
     font-family: 'interblack';
-    display: flex;
-    align-items: center;
+
+   
     font-size:0.7rem;
 }
 button.navbar-toggler span{
 color:black;
+
 
 }
