@@ -18,7 +18,7 @@ class App extends Component {
            <MDBContainer fluid>
            {/* NAVIGATION */}
             <MDBRow >
-              <MDBCol sm="12">
+              <MDBCol sm="12" id="naviCol">
                 <Navigation/>
               </MDBCol>
               </MDBRow>

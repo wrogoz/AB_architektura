@@ -26,7 +26,7 @@ class Navigation extends React.Component {
           
         <MDBNavbar className="navBar z-depth-0" dark expand="md" fixed="top" >
           <MDBNavbarBrand href="/" className="black-text" >
-                <strong>A+B architektura</strong>
+                <strong>A+B LOGO</strong>
               </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
