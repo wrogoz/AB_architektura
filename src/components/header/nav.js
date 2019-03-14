@@ -32,16 +32,16 @@ class Navigation extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right >
                   <MDBNavItem >
-                <MDBNavLink className="black-text" to="#">PROJEKTY</MDBNavLink>
+                <MDBNavLink className="black-text" to="/projekty">PROJEKTY</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                <MDBNavLink className="black-text" to="#">ARCHITEKTURA</MDBNavLink>
+                <MDBNavLink className="black-text" to="/architektura">ARCHITEKTURA</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                <MDBNavLink className="black-text" to="#">WNĘTRZA</MDBNavLink>
+                <MDBNavLink className="black-text" to="/wnetrza">WNĘTRZA</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                <MDBNavLink className="black-text" to="#">KONTAKT</MDBNavLink>
+                <MDBNavLink className="black-text" to="kontakt">KONTAKT</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
