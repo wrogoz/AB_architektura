@@ -28,9 +28,10 @@ i.fab{
 }
 .w-100{
     width:100vw;
-    height: 100vh;
+    height: 79vh;
     background-size: cover;
-background-position: center top;
+background-position: center;
+
 }
 img.d-block{
     height:78vh;
