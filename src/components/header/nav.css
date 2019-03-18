@@ -8,8 +8,8 @@
 @media (max-width: 576px) {
     #header {
       
-      padding-top:4%;
-      margin-bottom: 4%;
+      padding-top:1%;
+      margin-bottom: 1%;
        
    } 
    li.nav-item{
@@ -32,7 +32,7 @@
     font-family: 'interblack';
 
    
-    font-size:0.7rem;
+    font-size:0.6rem;
 }
 button.navbar-toggler span{
 color:black;
