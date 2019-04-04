@@ -1,0 +1,12 @@
+.imgMenu{
+    display: block;
+   width:100%;
+    height: auto;
+    max-height: 43vh;
+    margin-bottom: 6%;
+}
+@media (min-width:768px) {
+    #boxContainer{
+        margin-top: 1%;
+    }
+}

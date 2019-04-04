@@ -39,3 +39,11 @@ color:black;
 
 
 }
+#logo{
+    width:12vw;
+    height: 7vh;
+   background-size:contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    background-image: url(./img/LOGO_AB.png)
+}
