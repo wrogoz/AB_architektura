@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol,MDBIcon } from "mdbreact";
 import './entries.css'
-import Image from './image/image'
+import Image from '../imageComponent/image'
 import img1 from './images/wnetrza/dom_jednRodz/0_INTRO.jpg';
 import img2 from './images/wnetrza/lazienka/0_INTRO.jpg';
 
