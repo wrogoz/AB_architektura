@@ -24,6 +24,7 @@ class App extends Component {
                 <Navigation/>
               </MDBCol>
               </MDBRow>
+              
               {/* DISPLAY SECTIONS */}
                 <Route path="/" exact component={StartPage} />
                 <Route path="/projekty" exact component={null} />

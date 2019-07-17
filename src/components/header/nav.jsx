@@ -19,6 +19,10 @@ class Navigation extends React.Component {
   }
 
   render() {
+
+    
+
+
     return (
 
       //        FIXED VERSION 1.0
@@ -57,22 +61,22 @@ class Navigation extends React.Component {
 <header id="header">
             <MDBNavbar  light expand="md" className="navBar  z-depth-0" >
               <MDBNavbarBrand href="/" className="black-text">
-              <div id="logo"></div>
+              <div id="logo" onClick={this.onClick}></div>
               </MDBNavbarBrand>
               <MDBNavbarToggler onClick={this.onClick} />
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem >
-                <MDBNavLink className="black-text" to="/projekty">PROJEKTY</MDBNavLink>
+                <MDBNavLink className="black-text" to="/projekty" onClick={this.onClick}>PROJEKTY</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                <MDBNavLink className="black-text" to="/architektura">ARCHITEKTURA</MDBNavLink>
+                <MDBNavLink className="black-text" to="/architektura" onClick={this.onClick}>ARCHITEKTURA</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                <MDBNavLink className="black-text" to="/wnetrza">WNĘTRZA</MDBNavLink>
+                <MDBNavLink className="black-text" to="/wnetrza" onClick={this.onClick}>WNĘTRZA</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                <MDBNavLink className="black-text" to="kontakt">KONTAKT</MDBNavLink>
+                <MDBNavLink className="black-text" to="kontakt" onClick={this.onClick}>KONTAKT</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>

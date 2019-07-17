@@ -10,7 +10,7 @@ const StartPage = () => {
     <MDBCol sm="12" className="displayIntro ">
     <MDBContainer className="carousel " >
      
-      <MDBCarousel activeItem={1} length={3} showControls={false} showIndicators={false} className="z-depth-0">
+      <MDBCarousel activeItem={1} length={2} showControls={false} showIndicators={false} className="z-depth-0">
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBView>
@@ -28,13 +28,7 @@ const StartPage = () => {
             </MDBView>
            
           </MDBCarouselItem>
-          <MDBCarouselItem itemId="3">
-            <MDBView>
-                  <div className="d-block w-100" id="thirdSlide" />
-             
-            </MDBView>
-    
-          </MDBCarouselItem>
+          
           
         </MDBCarouselInner>
       </MDBCarousel>

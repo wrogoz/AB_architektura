@@ -24,26 +24,35 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding-top:1%;
+    padding:0.4rem 0rem;
     background-color: #fff;
 }
 #header {
  
     font-family: 'interblack';
-
-   
-    font-size:0.6rem;
+    font-size:0.7rem;
 }
 button.navbar-toggler span{
 color:black;
+
 
 
 }
 #logo{
     width:12vw;
     height: 7vh;
+   
    background-size:contain;
    background-repeat: no-repeat;
    background-position: center;
     background-image: url(./img/LOGO_AB.png)
+}
+@media (min-width:770px){
+    #logo{
+        width:6vw;
+        
+    }
+    .navbar{
+        padding:.5rem 3rem;
+    }
 }
