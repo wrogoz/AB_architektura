@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import {  MDBRow, MDBCol } from "mdbreact";
 import './entries.css'
 import Image from '../imageComponent/image'
 import img1 from './images/wnetrza/dom_jednRodz/0_INTRO.jpg';

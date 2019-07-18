@@ -1,10 +1,10 @@
 
 .entries_description{
         width:80vw;
-        height: 56vh;
+        height: 36vh;
         margin-bottom: 8%;
         background-position: center;
-        background-size: 100% 100%;
+        
         background-repeat: no-repeat;
        
 }
@@ -41,6 +41,18 @@
         display:flex;
         justify-content: center;
         padding-bottom: 5%;
+}
+@media (min-width: 765px)and (max-width:850px) {
+        .entries_description{
+                width:80vw;
+                height: 36vh;
+                margin-bottom: 8%;
+                background-position: center;
+                background-repeat: no-repeat;
+               padding:5%;
+        }
+
+
 }
 @media (min-width: 992px) { 
         .entries_description{

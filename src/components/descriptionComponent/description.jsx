@@ -19,12 +19,7 @@ const Description = props => {
                     {props.children}
                 </MDBCol>
             </MDBRow>
-            <MDBRow>
-                <MDBCol sm="12" className="footer">
-                    <MDBIcon fab icon="facebook-f" />
-                    <MDBIcon fab icon="instagram" />
-                </MDBCol>
-            </MDBRow>
+
         </MDBContainer>
     )
 }
