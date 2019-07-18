@@ -15,7 +15,8 @@
 }
 .iconsCol i.fab {
     font-size: 1.5rem;
-    padding: 1% 0.3%;
+    padding: 2% 0.3% 0 0.3%;
+
 }
 .iconRow{
     display:flex;
@@ -78,7 +79,7 @@ img.d-block{
    }
    .iconsCol i.fab {
        font-size: 1.5rem;
-       padding: 1% 2%;
+       padding: 1% ;
    }
    .w-100{
     height: 83vh;

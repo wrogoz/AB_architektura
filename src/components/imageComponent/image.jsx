@@ -14,7 +14,7 @@ const Image = props =>{
         <MDBView hover>
         
         <div className="imageSet" style={style}>
-        <MDBMask className="flex-center" overlay="stylish-strong">
+        <MDBMask className="flex-center" overlay="white-light">
                 <p className="white-text mask__txt">A + B Architektura</p>
               </MDBMask>
               </div>
