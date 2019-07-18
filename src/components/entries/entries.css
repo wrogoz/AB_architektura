@@ -8,25 +8,91 @@
 #entries--container{
     padding:0;
     margin:0;
+    width:100%;
 }
 .entries--row{
     width:95vw;
-    margin-bottom: 5%;
+  
 }
 .nav-link{
     margin:0;
     padding:0;
 }
 .entries--row div.col-md-6{
- padding-left:4%;
- padding-right:1%;
+ padding-left:10%;
+ padding-right:10%;
+ margin-bottom:5%;
 }
-@media (min-width:768px) {
-    
-    div.col-sm-12{
-        padding: 0 1% ;
-        margin:0;
-    }
-    
+.entries--row div.col-md-12{
+    padding-left:4%;
+    padding-right:1%;
+    margin-bottom:10%;
+   }
+ @media (min-height: 690px)and (max-height:721px) {
+.entries--row div.col-md-6{
+ padding-left:10%;
+ padding-right:10%;
+ margin-bottom:1px;
 }
+.entries--row div.col-md-12{
+    padding-left:4%;
+    padding-right:1%;
+    margin-bottom:1px;
+   }
 
+
+   }
+@media (min-width: 765px)and (max-width:850px) {
+    .entries--row div.col-md-6{
+        padding-left:2%;
+        padding-right:2%;
+        margin-bottom:4%;
+    }
+    .entries--row div.col-md-12{
+        padding-left:1%;
+        padding-right:1%;
+        margin-bottom:4%;
+        }
+    .entries--row{
+            width:90vw;
+            margin:0 auto;
+        
+    }  
+}    
+@media (min-width:851px)and (max-width:1366px) {
+
+    .entries--row div.col-md-6{
+        padding-left:1%;
+        padding-right:1%;
+        margin-bottom:2%;
+    }
+    .entries--row div.col-md-12{
+        padding-left:1%;
+        padding-right:1%;
+        margin-bottom:3%;
+        }
+    .entries--row{
+            width:84vw;
+            margin:0 auto;
+        
+        }      
+
+}
+@media (min-width:1367px) {
+     .entries--row div.col-md-6{
+        padding-left:1%;
+        padding-right:1%;
+        margin-bottom:2%;
+    }
+    .entries--row div.col-md-12{
+        padding-left:1%;
+        padding-right:1%;
+        margin-bottom:3%;
+        }
+    .entries--row{
+            width:84vw;
+            margin:0 auto;
+        
+        }      
+
+}

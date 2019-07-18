@@ -11,11 +11,11 @@ const Bathroom = props =>{
     return(    
         <Description
             title = "Nazwa projektu"
-            location = "Katowice"
-            client = "xXx"
-            area = "12"
-            status = "ukończone"
-            author = "Ania & Beata"
+            status = "Projekt wnętrz"
+            realization = "2014r."
+            area = "113"
+            
+
         >
                     <DescImg imgSrc={img1}/>
                     <DescImg imgSrc={img2}/>

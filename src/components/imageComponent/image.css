@@ -2,15 +2,16 @@
 .imageSet{
     
         width:100%;
-        height: 43vh;
-       
+        height: 30vh;
+        background-size: contain;
         background-position: center;
-        background-size: 100% 100%;
+        background-repeat: no-repeat;
     
     
 }
 .view .mask{
         height: inherit;
+        width:100%;
 }
 .mask__txt{
         font-family: 'interblack';
@@ -20,7 +21,7 @@
         .imageSet{
                 
                 height:26vh;
-                    
+                background-size: cover;   
                 }  
     }
 
@@ -28,7 +29,7 @@
         .imageSet{
                 
         height:40vh;
-            
+        background-size: cover;     
         }  
         
 }

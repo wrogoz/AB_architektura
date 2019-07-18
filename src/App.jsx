@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'normalize.css';
 import { MDBContainer,MDBCol,MDBRow} from "mdbreact";
 import Navigation from './components/header/nav'
 import StartPage from './components/startPage/startPage'
