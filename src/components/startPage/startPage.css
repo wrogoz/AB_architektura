@@ -64,17 +64,14 @@ img.d-block{
     }
 }
 
-    /* tablets */
 
 @media (min-width: 765px)and (max-width:850px) {
     img.d-block{
    height:78vh;
    } 
-  
-   
    .iconRow{
        margin-top:4%;
-       padding-top: 6%;
+       padding-top: 0%;
     height: 6vh;
    }
    .iconsCol i.fab {
@@ -86,7 +83,7 @@ img.d-block{
     height: 83vh;
     background-position: 46% 0;
 
-}
+    }
    
 }
 
