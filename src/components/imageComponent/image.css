@@ -3,7 +3,7 @@
     
         width:100%;
         height: 30vh;
-        
+      
         background-position: center;
         background-repeat: no-repeat;
     
@@ -11,6 +11,7 @@
 }
 .view .mask{
         height: inherit;
+        width:100%;
 }
 .mask__txt{
         font-family: 'interblack';
